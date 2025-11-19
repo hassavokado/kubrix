@@ -1,0 +1,10 @@
+grafana:
+  grafana.ini:
+    server:
+      root_url: "https://grafana.kubrix.digiorg.cloud"
+  ingress:
+    hosts: [grafana.kubrix.digiorg.cloud]
+    tls:
+      - secretName: grafana-server-tls
+        hosts:
+        - grafana.kubrix.digiorg.cloud

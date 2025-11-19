@@ -1,0 +1,13 @@
+falco:
+  falcosidekick:
+    webui:
+      ingress:
+        hosts:
+          - host: falco.kubrix.digiorg.cloud
+            paths:
+              - path: /
+                pathType: Prefix
+        tls:
+            - secretName: falco-server-tls
+              hosts:
+                - falco.kubrix.digiorg.cloud

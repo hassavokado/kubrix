@@ -1,0 +1,6 @@
+kargo:
+  api:
+    host: kargo.kubrix.digiorg.cloud
+    argocd:
+      urls:
+        "": https://argocd.kubrix.digiorg.cloud

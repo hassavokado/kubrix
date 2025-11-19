@@ -1,0 +1,10 @@
+vault:
+  server:
+    ingress:
+      hosts:
+        - host: vault.kubrix.digiorg.cloud
+          paths: []
+      tls: 
+        - secretName: vault-server-tls
+          hosts:
+            - vault.kubrix.digiorg.cloud

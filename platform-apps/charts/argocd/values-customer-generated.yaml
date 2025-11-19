@@ -1,0 +1,10 @@
+argo-cd:
+  global:
+    domain: argocd.kubrix.digiorg.cloud
+
+  server:
+    ingress:
+      extraTls:
+        - hosts:
+          - argocd.kubrix.digiorg.cloud
+          secretName: argocd-server-tls

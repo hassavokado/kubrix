@@ -1,0 +1,8 @@
+cost-analyzer:
+  ingress:
+    hosts:
+      - kubecost.kubrix.digiorg.cloud
+    tls:
+      - secretName: kubecost-server-tls
+        hosts:
+        - kubecost.kubrix.digiorg.cloud

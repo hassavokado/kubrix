@@ -1,0 +1,13 @@
+clusterType: k8s
+cloudProvider: aks
+dnsProvider: azure
+certManagerDnsProvider: none
+tShirtSize: small
+securityStrict: false
+haEnabled: false
+domain: kubrix.digiorg.cloud
+gitRepo: https://github.com/hassavokado/kubrix.git
+gitRepoOrg: hassavokado
+gitRepoName: kubrix
+gitUser: dummy
+metalLbIp:  
