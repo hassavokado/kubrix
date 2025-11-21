@@ -142,3 +142,14 @@ spec:
     - ./generic/loki-info.yaml
     - ./generic/tempo-info.yaml
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: hassavokado
+spec:
+  profile:
+    displayName: hassavokado
+    email: gennady.solomennikov@gmail.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [kubrix]
