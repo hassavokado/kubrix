@@ -351,9 +351,10 @@ backstage:
           maxDepth: 1
           admin:
             users:
-              - name: group:default/demouser
+              - name: group:default/kubrix
             superUsers:
               - name: user:default/demoadmin
+              - name: user:default/hassavokado
               - name: user:default/phac008
               - name: user:default/jkleinlercher
           policies-csv-file: /opt/app-root/src/rbac/rbac-policy.csv
