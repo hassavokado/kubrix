@@ -118,10 +118,21 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: hassavokado
+  name: FraaanzXT
 spec:
   profile:
     displayName: FraaanzXT
     email: fraaanzxt@hotmail.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [kubrix]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: it-stud-io
+spec:
+  profile:
+    displayName: it-stud-io
+    email: christian.mueller@it-stud.io
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [kubrix]
